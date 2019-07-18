@@ -3,11 +3,7 @@ body {
     margin: 0;
     font-size: 100%;
     line-height: 1.5;
-<<<<<<< HEAD
     font-family: 'PT Serif Caption', serif;
-=======
-	  font-family: "Myriad Pro", "Helvetica Neue", Helvetica; 
->>>>>>> 3bc41f1aef06fc9f9808a2cb07566c8735aa275c
     box-sizing : border-box;
     background-color: rgb(253, 237, 199);  
 }
