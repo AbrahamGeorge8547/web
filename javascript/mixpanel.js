@@ -9,7 +9,17 @@ function blogviews() {
  }
 // This function executes when someone clicks on my instagram icon
 function instagram() {
-    mixpanel.track("instagram views");
+    mixpanel.track_links("#instalink","Instagram");
+}
+
+// This function executes when someone clicks on my Twitter icon
+function twitter() {
+    mixpanel.track_links("#tweetlink","Twitter");
+}
+
+// This function executes when someone clicks on my Linkedin icon
+function linkedin() {
+    mixpanel.track_links("#linkedlink","LinkedIn");
 }
 
 // This function executes when a user visits my bookshelf page
