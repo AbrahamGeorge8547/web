@@ -32,7 +32,48 @@ function peoplevisits() {
     mixpanel.track("people visits")
 }
 
-// This function executes when a user visits my music page
-function musicvisits() {
-    mixpanel.track("music visits")
+// This function executes when a user visits my stack page
+function stack() {
+    mixpanel.track("Stack Views")
+}
+
+// This function executes when someone redirects to bear
+function bear() {
+    mixpanel.track_links("#bearlink","Bear");
+}
+// This function executes when someone redirects to brain.fm
+function brain() {
+    mixpanel.track_links("#brain.fmlink","Brain.fm");
+}
+// This function executes when someone redirects to spotify
+function spotify() {
+    mixpanel.track_links("#spotifylink","spotify");
+}
+// This function executes when someone redirects to momentum
+function momentum() {
+    mixpanel.track_links("#momentumlink","momentum");
+}
+// This function executes when someone redirects to sketch
+function sketch() {
+    mixpanel.track_links("#sketchlink","sketch");
+}
+// This function executes when someone redirects to pocket
+function pocket() {
+    mixpanel.track_links("#pocketlink","pocket");
+}
+// This function executes when someone redirects to audible
+function audible() {
+    mixpanel.track_links("#audiblelink","audible");
+}
+// This function executes when someone redirects to Lithium
+function lithium() {
+    mixpanel.track_links("#lithiumlink","Lithium");
+}
+// This function executes when someone redirects to screentime
+function screentime() {
+    mixpanel.track_links("#screentimelink","screentime");
+}
+// This function executes when someone redirects to stratechery
+function stratechery() {
+    mixpanel.track_links("#stratecherylink","stratechery");
 }
