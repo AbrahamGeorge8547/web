@@ -5,7 +5,7 @@ body {
     line-height: 1.5;
     font-family: 'PT Serif Caption', serif;
     box-sizing : border-box;
-    background-color: rgb(253, 237, 199);  
+    background-color: #FAE8DD;  
 }
 
 body a {
@@ -106,7 +106,7 @@ body img {
 }
 
 .layer {
-    background: rgb(253, 237, 199);
+    background: #FAE8DD;
 }
 
 .banner-text-section {

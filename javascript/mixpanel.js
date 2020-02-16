@@ -77,3 +77,23 @@ function screentime() {
 function stratechery() {
     mixpanel.track_links("#stratecherylink","stratechery");
 }
+// This function executes when someone redirects to badblood
+function badblood() {
+    mixpanel.track_links("#badbloodlink","badblood");
+}
+// This function executes when someone redirects to henryviii
+function henryviii() {
+    mixpanel.track_links("#henryviii","henryviii");
+}
+// This function executes when someone redirects to hardthings
+function hardthings() {
+    mixpanel.track_links("#hardthings","hardthings");
+}
+// This function executes when someone redirects to bigshort
+function bigshort() {
+    mixpanel.track_links("#bigshort","bigshort");
+}
+// This function executes when someone redirects to littleprince
+function littleprince() {
+    mixpanel.track_links("#littleprince","littleprince");
+}
