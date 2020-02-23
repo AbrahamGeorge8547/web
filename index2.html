@@ -10,6 +10,8 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mi
 mixpanel.init("014702ac34209dba0b68866fcf72b175");</script><!-- end Mixpanel -->
 
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK|Noto+Serif+TC|Roboto+Condensed&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 <title>Vinayak Nair </title>
 
@@ -17,8 +19,37 @@ mixpanel.init("014702ac34209dba0b68866fcf72b175");</script><!-- end Mixpanel -->
 <script> type="text/javascript"
    pagevisits();
 </script>
+<script>
 
-</script>	
+</script>
+<script>
+// function to set a given theme/color-scheme
+function setTheme(themeName) {
+            localStorage.setItem('theme', themeName);
+            document.documentElement.className = themeName;
+        }
+
+        // function to toggle between light and dark theme
+        function toggleTheme() {
+            if (localStorage.getItem('theme') === 'theme-dark') {
+                setTheme('theme-light');
+            } else {
+                setTheme('theme-dark');
+            }
+        }
+
+        // Immediately invoked function to set the theme on initial load
+        (function () {
+            if (localStorage.getItem('theme') === 'theme-dark') {
+                setTheme('theme-dark');
+                document.getElementById('slider').checked = false;
+            } else {
+                setTheme('theme-light');
+              document.getElementById('slider').checked = true;
+            }
+        })();
+
+</script>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -71,10 +102,8 @@ vinayakvnair, vinayak v nair, vinayak, nair, reffera, startup, Bangalore, Silico
 				
 			<div class="banner-text-section">
 
-							
-				
 					<label class="switch">
-					<input type="checkbox">
+					<input type="checkbox" onchange="toggleTheme()" class="check" id="slider">
 						<span class="slider"> </span>
 
 					</label>
@@ -95,8 +124,8 @@ vinayakvnair, vinayak v nair, vinayak, nair, reffera, startup, Bangalore, Silico
                   <br> I’ve met most of the cool people i know, Thanks to the Internet </br>
 
                   <br> If you want to say hello, need to complain, praise or find an error, say <u class="reffera">hello@vinayakvnair.com</u> </br>
-									<br> <a id="instalink" href="https://www.instagram.com/thevinayaknair_/" target="_blank">  <img class="somo" src="images/instagram.png"> </a>
-									             <a id="tweetlink" href="https://twitter.com/iamvinayaknair" target="_blank" > <img class="somo" src="images/twitter.png" hspace="10"> </a> <a id="linkedlink" href="https://www.linkedin.com/in/vinayak-nair/" target="_blank"><img class="somo" src="images/linkedin.png"></a>  
+									<br> <a id="instalink" href="https://www.instagram.com/thevinayaknair_/" target="_blank">  <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+									             <a id="tweetlink" href="https://twitter.com/iamvinayaknair" target="_blank" > <i class="fa fa-twitter" aria-hidden="true"></i> </a> <a id="linkedlink" href="https://www.linkedin.com/in/vinayak-nair/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>  
 															</br>
 															
 				
