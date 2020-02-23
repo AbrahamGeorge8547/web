@@ -177,6 +177,21 @@ body img {
   width: 44px;
 }
 
+
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  #switchdesktop { display: none; }   /* hide it elsewhere */
+  #switchphone { display: unset; margin-left: 10px;
+    position: absolute;
+    margin-top: 85px;}  /* show it on small screens */
+}
+
+@media screen and (min-width: 1000px) and (max-width: 2048px) {
+  #switchdesktop { display: inline-block; }   /* hide it elsewhere */
+  #switchphone { display: none; }  /* show it on small screens */
+
+}
+
 .switch{
   position: relative;
   display: inline-block;
@@ -184,6 +199,7 @@ body img {
   height: 21px;
   margin:0;
 }
+
 
 .switch input {display:none}
 
