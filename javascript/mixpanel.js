@@ -38,16 +38,16 @@ function stack() {
 }
 
 // This function executes when someone redirects to bear
-function bear() {
-    mixpanel.track_links("#bearlink","Bear");
+function roam() {
+    mixpanel.track_links("#roamlink","Roam");
 }
 // This function executes when someone redirects to brain.fm
 function brain() {
     mixpanel.track_links("#brain.fmlink","Brain.fm");
 }
 // This function executes when someone redirects to spotify
-function spotify() {
-    mixpanel.track_links("#spotifylink","spotify");
+function apple() {
+    mixpanel.track_links("#applelink","apple");
 }
 // This function executes when someone redirects to momentum
 function momentum() {
@@ -61,6 +61,9 @@ function sketch() {
 function pocket() {
     mixpanel.track_links("#pocketlink","pocket");
 }
+// This function executes when someone redirects to calm
+function calm() {
+    mixpanel.track_links("#calmlink","calm");
 // This function executes when someone redirects to audible
 function audible() {
     mixpanel.track_links("#audiblelink","audible");
