@@ -64,6 +64,7 @@ function pocket() {
 // This function executes when someone redirects to calm
 function calm() {
     mixpanel.track_links("#calmlink","calm");
+}    
 // This function executes when someone redirects to audible
 function audible() {
     mixpanel.track_links("#audiblelink","audible");
