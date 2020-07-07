@@ -37,7 +37,7 @@ function stack() {
     mixpanel.track("Stack Views")
 }
 
-// This function executes when someone redirects to bear
+// This function executes when someone redirects to roam
 function roam() {
     mixpanel.track_links("#roamlink","Roam");
 }
@@ -45,17 +45,17 @@ function roam() {
 function brain() {
     mixpanel.track_links("#brain.fmlink","Brain.fm");
 }
-// This function executes when someone redirects to spotify
-function apple() {
-    mixpanel.track_links("#applelink","apple");
+// This function executes when someone redirects to breaker
+function breaker() {
+    mixpanel.track_links("#breakerlink","breaker");
 }
 // This function executes when someone redirects to momentum
 function momentum() {
     mixpanel.track_links("#momentumlink","momentum");
 }
-// This function executes when someone redirects to sketch
-function sketch() {
-    mixpanel.track_links("#sketchlink","sketch");
+// This function executes when someone redirects to figma
+function figma() {
+    mixpanel.track_links("#figmalink","figma");
 }
 // This function executes when someone redirects to pocket
 function pocket() {
@@ -72,6 +72,10 @@ function audible() {
 // This function executes when someone redirects to Lithium
 function lithium() {
     mixpanel.track_links("#lithiumlink","Lithium");
+}
+// This function executes when someone redirects to Lithium
+function netlify() {
+    mixpanel.track_links("#netlifylink","netlify");
 }
 // This function executes when someone redirects to screentime
 function screentime() {
